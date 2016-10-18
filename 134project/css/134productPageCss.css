@@ -1,0 +1,42 @@
+body{
+	color:  #55ff00;
+	background-color:  	#91b09d;
+}
+.ayy {
+	/*margin: center;*/
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3 ;
+	column: 30% 3;
+  
+}
+img
+{
+	position: reletive;
+    width:  100px;
+    height: 100px;
+	border-radius: 50%;
+	transition: width 2s,height 2s;
+	
+}
+
+div.mainpagelink{
+	position: fixed;
+	right: 50%;
+	border: 6px, #000000;
+	color: #9900cc;
+	border-color: red;
+}
+a:visited {
+	color: #9900cc;
+}
+p{
+	position: relative;
+	font-size: 24; 
+	color: #225149;
+}
+img:hover, img:active{
+	/*background-color: red;*/
+	width:  500px;
+    height: 500px;
+	
+}
